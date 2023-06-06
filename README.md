@@ -1,48 +1,8 @@
+A personal fork of 5e Tools including my own house rules and removing content I don't want.
+
 ## 5e.tools
 
 Visit the [main site](https://5e.tools/index.html) or go to the unofficial GitHub [mirror](index.html).
-
-[Join the 5etools Discord here!](https://discord.gg/5etools)
-
-## Help and Support
-
-Please see [our wiki](https://wiki.tercept.net/) for FAQs, installation guides, supported integrations, and more.
-
----
-
-## Developer Notes
-### Data Sources and Versioning
-
-Only "official" (that is, published by WotC) data is to be included in the site. Anything else should be added to the homebrew repository. Some exceptions to this rule are:
-- All Adventurers League (AL) -specific content is to be kept in the homebrew repository. While much of this content broadly falls under the "published by WotC" umbrella, a good deal of it doesn't. For the sake of consistency/cleanliness, all AL content is to be considered homebrew.
-- Anything published in the Dragon+ magazine.
-- Anything veto'd by the maintainers of this repository.
-
-Prioritise RAW above all else. Aim to provide a 1:1 copy of the original data. Obvious typos (for instance, mathematical errors in creature stat blocks) may be corrected at the discretion of the maintainer(s).
-
-Aim to use the latest version of any published material. Older versions which are sufficiently different (and relevant to community interests) can be moved to the homebrew repository.
-
-The primary source for an entity should be that under which it was first released. Exceptions to this rule include:
-- The entity was originally released in a "partial" or "pre-release" form. For example, races from WGE were later re-released in ERLW.
-- The entity was originally released in a published adventure, but was later re-printed in a generic supplement. For example, the demon lords in OotA were re-printed in MTF, or the Haunted One background in CoS was re-printed in VRGR.
-
-#### Page-Specific Notes
-
-*Languages page.* As there is no well-defined RAW format for language data, the languages page collects together information from several disjoint places. A priority list of sources to be considered is:
-- The "Languages" section on PHB p123
-- official sources, in order of:
-  - PHB > (DMG) > MM
-  - Other "official" (i.e. published) products in release-date order
-  - "Unofficial" products (i.e. Unearthed Arcana; Plane Shift) in release-date order
-
-Within this ordering, the following prioritisation should be made:
-- text that directly refers to or describes a language, in order of first appearance in the product (i.e. if a language is mentioned on page 2 and 10 of a book, the entry on page 2 should be taken as the primary source)
-- text that is given for player use (e.g. the "Druidic" feature of the Druid class) (the text of which may have to be adapted to fit a reference format; i.e. changing "You can understand..." to "A speaker or X language can understand...).
-
-
-### Target JavaScript Version
-
-Any language feature which is available in both main-line Chrome and main-line Firefox, and has been available for at least six months, may be used.
 
 ### Style Guidelines
 #### Code
